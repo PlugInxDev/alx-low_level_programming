@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
- * A C program
- * that prints the size of
- * various types of computer
- * it is compiles and run on
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int a;
