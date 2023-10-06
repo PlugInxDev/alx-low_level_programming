@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - ntry point
+ * main - Entry point
  *
  * Return: 0
  */
@@ -12,6 +12,6 @@ int main(void)
 	for (b = 'a'; b <= 'z'; b++)
 		if (b != 'q' && b != 'e')
 			putchar(b);
-	putchr('\n');
+	putchar('\n');
 	return (0);
 }
