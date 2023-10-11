@@ -1,20 +1,20 @@
-#include <"main.h">
+#include "main.h"
 
 /**
-*main - function prints text as output
+*main - Entry point
 *
-*Return:return 0
+*Return: 0
 */
 int main(void)
 {
-	char school[10] = "_putchar";
+	_putcher('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
-	int i;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(school[i]);
-	}
-	_putchar(10);
 	return (0);
 }
