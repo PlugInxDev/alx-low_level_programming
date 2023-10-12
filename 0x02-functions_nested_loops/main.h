@@ -20,7 +20,7 @@ int _abs(int);
 
 int print_last_digit(int);
 
-void jack bauer(void);
+void jacK_bauer(void);
 
 void times_table(void);
 
