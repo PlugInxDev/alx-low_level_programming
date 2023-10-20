@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
-* print_number - prints an integer
-*@n:integer to be printed
-*
-*/
+ * print_number - Prints an integer.
+ * @n: The integer to be printed.
+ * done by Temesgen Abdissa
+ */
 void print_number(int n)
 {
 	unsigned int num = n;
