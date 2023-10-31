@@ -12,7 +12,7 @@ char *create_array(unsigned int size, char c)
 	char *cr;
 	unsigned int i;
 
-	if (size == 00
+	if (size == 00)
 		return (NULL);
 
 	cr = malloc(sizeof(c) * size);
