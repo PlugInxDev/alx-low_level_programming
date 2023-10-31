@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdflib.h>
 
 /**
  * free_grid - freess a 2 dimensional grid.
