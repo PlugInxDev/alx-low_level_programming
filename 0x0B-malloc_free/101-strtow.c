@@ -31,7 +31,7 @@ char **strtow(char *str)
 	if (str == NULL || *str == '\0')
 		return (NULL);
 	for (c = height = 0; str[c] != '\0'; c++)
-		if (sr[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
+		if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			height++;
 	aout = malloc((height + 1) * sizeof(char *));
 	if (aout == NULL || height == 0)
@@ -47,12 +47,12 @@ char **strtow(char *str)
 				a1++;
 			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
-				aout[i] = malloc((c - a1 + 2) * sizof(char));
-				if (aout[i] == NULL
-						{
+				aout[i] = malloc((c - a1 + 2) * sizeof(char));
+				if (aout[i] == NULL)
+					{
 						ch_free_grid(aout, i);
 						return (NULL);
-						}
+					}
 						break;
 			}
 		}
