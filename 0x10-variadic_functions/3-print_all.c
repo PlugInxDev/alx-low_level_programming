@@ -1,4 +1,4 @@
-#include "variadic_functions"
+#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -40,6 +40,6 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 
-	printf("n");
+	printf("\n");
 	va_end(list);
 }
